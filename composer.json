@@ -1,0 +1,29 @@
+{
+    "name": "promio/promio-shop-connector",
+    "description": "promio/promio-shop-connector",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.2",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "~6.6.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "Promio\\PromioShopConnector",
+        "label": {
+            "de-DE": "PromioShopConnector",
+            "en-GB": "PromioShopConnector"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Promio\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Promio\\Tests\\": "tests/"
+        }
+    }
+}
+
+
