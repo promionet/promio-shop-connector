@@ -2,7 +2,7 @@
     "name": "promio/promio-shop-connector",
     "description": "promio/promio-shop-connector",
     "type": "shopware-platform-plugin",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": "MIT",
     "require": {
         "shopware/core": "~6.6.0"
